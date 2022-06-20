@@ -46,8 +46,12 @@ header h3{
 }
 header form{
     position: absolute;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
     margin-top: 16rem;
-    margin-left: 21%;
+    margin-left: 21%; 
     background-color: rgba(0, 0, 0, 0.39);
     padding: 5rem;
     width: 50rem;
