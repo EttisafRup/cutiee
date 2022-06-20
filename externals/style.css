@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    top: 0;
+}
+html{
+    font-size: 62.5%;
+}
+#break{
+    margin-bottom: 2rem;
+}
+header::before{
+    content: '';
+    background: url('https://source.unsplash.com/collection/190727') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+    opacity: 1;
+    filter: blur(0px);
+}
+
+header img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    padding: 0rem;
+    margin-left: 43%;
+    margin-top: 4rem;
+    position: absolute;
+    z-index: 1;
+    border: 0.2rem solid red;
+}
+
+header h3{
+    color: whitesmoke;
+    text-shadow: 0 0 0.8rem white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    letter-spacing: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 1rem black;
+
+}
+header form{
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 21%;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 5rem;
+    width: 50rem;
+    text-align: center;
+    border-radius: 0rem 5rem 0rem 5rem;
+    border-bottom: 0.3rem solid red;
+    border-left: 0.2rem solid red;
+    box-shadow: 0 0 1rem red;
+}
+
+header input{
+    width: 25rem;
+    background: transparent;
+    outline: none;
+    border: 0.3rem solid rgba(161, 161, 161, 0.822);
+    height: 2.5rem;
+    border-radius: 0.7rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.4rem white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'AudioWide', sans-serif;
+    transition: 0.3s;
+}
+
+header input:hover{
+    border: 0.3rem solid rgba(255, 255, 255, 0.822);
+    box-shadow: 0 0 1rem white;
+}
+
+header input::placeholder{
+    text-align: center;
+    color: rgb(225, 241, 255);
+    letter-spacing: 0.1rem;
+}
+
+header form button{
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'AudioWide', sans-serif;
+    letter-spacing: 0.1rem;
+    padding: 0.7rem 2rem;
+    outline: none; border: none;
+    box-shadow: 0 0 1rem white;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header form button:hover{
+    background-color: rgba(0, 255, 0, 0.692);
+    color: white;
+    text-shadow: 0.15rem 0rem 0rem rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    font-family: 'AudioWide', sans-serif;
+    letter-spacing: 0.1rem;
+    padding: 0.7rem 2rem;
+    outline: none; border: none;
+    box-shadow: 0 0 1rem rgb(0, 255, 0);
+    animation: hov 1s linear infinite alternate;
+}
+@keyframes hov {
+    50%{
+        border-radius: 4rem 0.5rem 4rem 0.5rem;
+    }
+    100%{
+        border-radius: 0.5rem 4rem 0.5rem 4rem;
+    }
+    
+}
+
+footer{
+    margin-top: 90vh;
+    position: absolute;
+    background-color: #011e3b;
+    box-shadow: 0 0 2rem #003d7a;
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content h4{
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+}
+.content label{
+   color: white;
+   font-size: 1.4rem;
+}
+
+footer img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    margin-left: 48%;
+}
