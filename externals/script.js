@@ -1,3 +1,5 @@
+alert("Try to input 'ettisafisagoodboy' as a string into the password input field, Any username will be fine, also try a wrong password");
+
 function rup(){
 
     // Required Password
@@ -13,7 +15,7 @@ function rup(){
         return false;
         
     } else {
-        alert('Age amar proshongsa kor :|');
+        alert(un + 'Aint Im a good boy? :|');
     }
     
 }
